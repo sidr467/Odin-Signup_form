@@ -94,12 +94,16 @@ form>p{
 
 input{
     margin-top: 6px;
-    border: 2px solid #59595d;
+    border: 1px solid black;
     height: 30px;
     width: 300px;
     padding: 3px;
 }
 
-input:focus{
-    border: 2px solid white;
+input:hover{
+    border: 2px solid rgb(7, 7, 34);
+}
+
+legend{
+    font-weight: bolder;
 }
