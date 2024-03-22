@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.left-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(assets/luffy.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 750px;
+    height: 100vh;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.credits{
+    display: flex;
+    align-items: flex-end;
+    background:rgba(0, 0, 0, 0.5);
+    color:white;
+    margin-bottom: 10px;
+}
+
+p>a{
+    color: white;
+}
+
+h1{
+    font-size:50px;
+    padding: 15px;
+    color: white;
+}
